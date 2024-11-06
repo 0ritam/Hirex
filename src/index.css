@@ -1,0 +1,101 @@
+
+/* index.css */
+@import url('https://fonts.cdnfonts.com/css/general-sans');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Updated Color Variables */
+    --background-light: 215 100% 95%; /* Light blue background for light mode */
+    --foreground-light: 222.2 84% 4.9%;
+    --background-dark: 222.2 84% 4.9%;
+    --foreground-dark: 210 40% 98%;
+
+    /* Background and Text Colors */
+    --background: var(--background-light);
+    --foreground: var(--foreground-dark);
+
+    /* Component Colors */
+    --card: var(--background-dark);
+    --card-foreground: var(--foreground-dark);
+    --popover: var(--background-dark);
+    --popover-foreground: var(--foreground-dark);
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+  }
+
+  /* Apply dark mode colors when .dark class is active */
+  .dark {
+    --background: var(--background-dark);
+    --foreground: var(--foreground-dark);
+    --card: var(--background-dark);
+    --card-foreground: var(--foreground-dark);
+    --popover: var(--background-dark);
+    --popover-foreground: var(--foreground-dark);
+    --primary: var(--foreground-dark);
+    --primary-foreground: var(--background-dark);
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: var(--foreground-dark);
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: var(--foreground-dark);
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: var(--foreground-dark);
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+/* Utility classes */
+@layer utilities {
+  .gradient {
+    @apply bg-gradient-to-br from-gray-500 via-gray-200 to-white;
+  }
+
+  .gradient-title {
+    @apply gradient text-transparent bg-clip-text;
+  }
+
+  /* Ensure base background and text follow theme */
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* about section */
+
+.grid-container {
+  @apply w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+}
+
+.grid-headtext {
+  @apply text-xl font-semibold mb-2 text-white font-generalsans;
+}
+
+.grid-subtext {
+  @apply text-[#afb0b6] text-base font-generalsans;
+}
+
+.copy-container {
+  @apply cursor-pointer flex justify-center items-center gap-2;
+}
