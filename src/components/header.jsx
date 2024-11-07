@@ -48,7 +48,7 @@ const Header = () => {
           {/* Dark Mode Toggle Switch */}
           <div className="flex items-center justify-center gap-2">
             {/* <span>Light</span> */}
-            <Switch checked={theme === "dark"} onCheckedChange={toggleTheme} />
+            {/* <Switch checked={theme === "dark"} onCheckedChange={toggleTheme} /> */}
             {/* <span>Dark</span> */}
           </div>
           <SignedIn>
