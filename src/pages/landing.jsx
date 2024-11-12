@@ -16,9 +16,11 @@ const LandingPage = () => {
   // const { theme, toggleTheme } = useTheme(); // Access theme and toggle function
 
   return (
+    
     <main className="flex flex-col gap-10 sm:gap-20 py-10 sm:py-10 px-6">
-      <Ripple />
+      
       <section className="text-center">
+      <Ripple />
         <div className="relative flex flex-col items-center justify-center ripple-container">
           <h1 className="relative z-10 gradient-title text-3xl font-extrabold sm:text-6xl lg:text-8xl tracking-tighter py-4">
             For Devs who <br />are 100X
