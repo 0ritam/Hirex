@@ -39,6 +39,18 @@ Presenting you, HIREX, a Full Stack Job Portal, an amazing project built using m
 
 - Deployment: Vercel
 
+📸 Screenshots
+
+Home Page
+
+
+
+Job Listings
+
+
+
+User Authentication
+
 ## 🌟 Acknowledgements
 
 - React.js
