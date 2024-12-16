@@ -1,11 +1,52 @@
-<<<<<<< HEAD
-# Hirex
-# React + Vite
+## Hirex
+Presenting you, HIREX, a Full Stack Job Portal, an amazing project built using modern web technologies like React.js, Tailwind CSS, Supabase, Clerk Authentication, and Shadcn UI. This project is designed to showcase your full-stack development skills, making it an excellent addition to your resume to impress recruiters.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀Features
 
-Currently, two official plugins are available:
+## User Authentication
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> eec94e4 (Project Code Deployed)
+- Secure authentication using Clerk.
+
+- Login, Signup, and Password Recovery.
+
+- Role-based access control (Recruiter, Job Seeker).
+
+## Job Seeker Features
+
+- View available job listings.
+
+- Search for jobs using filters like location, job type, and salary range.
+
+- Save favorite job posts.
+
+- Apply to jobs directly.
+
+## Recruiter Features
+
+- Post job vacancies.
+
+- Manage job applications.
+
+- Review and respond to Hiring status.
+
+## Technology Stack
+
+- Frontend: React.js, Tailwind CSS, Shadcn UI
+
+- Backend: Supabase
+
+- Authentication: Clerk
+
+- Deployment: Vercel
+
+## 🌟 Acknowledgements
+
+- React.js
+
+- Tailwind CSS
+
+- Supabase
+
+- Clerk
+
+- Shadcn UI
